@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Assistant:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Assistant:wght@200;300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
     html {
-      font-family: 'Aclonica';
+        font-family: "Aclonica";
     }
-    p{
-     font-family: 'Assistant';
-     @apply font-normal text-accent text-xl;
+    p {
+        font-family: "Assistant";
+        @apply font-normal text-accent leading-6 xl:leading-8 text-[17px]  lg:text-lg;
     }
-  }
-  .title-bottom::after{
+}
+.title-bottom::after {
     content: "";
-    background-color: #136C47;
+    background-color: #136c47;
     width: 3px;
     height: 3px;
     border-radius: 50%;
@@ -23,13 +23,13 @@
     top: -2.5px;
     z-index: 1;
     position: absolute;
-  }
-  .title-bottom::before{
+}
+.title-bottom::before {
     content: "";
     width: 120px;
     height: 1.5px;
     bottom: 0;
     left: 0;
     position: absolute;
-    background-color: #136C47;
-  }
+    background-color: #136c47;
+}
